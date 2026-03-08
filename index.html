@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LuminaDent – Modern dental care with excellence and comfort. Book your appointment today." />
+  <title>LuminaDent | Modern Dental Care</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body class="page-home" id="top">
+
+  <!-- ───────── HEADER ───────── -->
+  <header class="site-header" role="banner">
+    <a href="index.html" class="logo" aria-label="LuminaDent Home">
+      <span class="logo-icon">✦</span>
+      <span class="logo-text">Lumina<em>Dent</em></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <ul role="list">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="btn-book" aria-label="Book an appointment">Book Appointment</a>
+    <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ───────── MOBILE MENU ───────── -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn-book">Book Appointment</a>
+  </div>
+
+  <!-- ───────── HERO ───────── -->
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg">
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1800&auto=format&fit=crop" 
+               alt="Modern dental clinic interior with state-of-the-art equipment" 
+               class="hero-img" loading="eager" />
+          <div class="hero-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Excellence in Dental Care</p>
+        <h1 id="hero-heading" class="reveal reveal-delay-1">Modern Dental Care<br /><em>with Comfort &amp; Precision</em></h1>
+        <p class="hero-sub reveal reveal-delay-2">We combine advanced technology with a gentle touch to give you a smile you're proud to share.</p>
+        <div class="hero-ctas reveal reveal-delay-3">
+          <a href="contact.html" class="btn-primary">Book Appointment</a>
+          <a href="services.html" class="btn-ghost">Our Services</a>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <span>20+ Years</span>
+        <span>of Excellence</span>
+      </div>
+    </section>
+
+    <!-- ───────── INTRO STRIP ───────── -->
+    <section class="intro-strip">
+      <div class="intro-grid">
+        <div class="intro-stat reveal">
+          <strong>4,800+</strong>
+          <span>Happy Patients</span>
+        </div>
+        <div class="intro-stat reveal reveal-delay-1">
+          <strong>12</strong>
+          <span>Specialist Dentists</span>
+        </div>
+        <div class="intro-stat reveal reveal-delay-2">
+          <strong>98%</strong>
+          <span>Satisfaction Rate</span>
+        </div>
+        <div class="intro-stat reveal reveal-delay-3">
+          <strong>20+</strong>
+          <span>Years of Care</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── SERVICES PREVIEW ───────── -->
+    <section class="services-preview section-gap" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="label">What We Offer</p>
+          <h2 id="services-heading">Comprehensive Dental Services</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">⬡</div>
+            <h3>General Dentistry</h3>
+            <p>Routine check-ups, cleanings, and preventive care to keep your smile healthy for life.</p>
+            <a href="services.html" class="card-link">Learn more →</a>
+          </article>
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon" aria-hidden="true">◈</div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>Veneers, bonding, and smile makeovers crafted to reveal your best smile.</p>
+            <a href="services.html" class="card-link">Learn more →</a>
+          </article>
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-icon" aria-hidden="true">◭</div>
+            <h3>Orthodontics</h3>
+            <p>Clear aligners and traditional braces for a perfectly aligned, confident smile.</p>
+            <a href="services.html" class="card-link">Learn more →</a>
+          </article>
+          <article class="service-card reveal reveal-delay-3">
+            <div class="service-icon" aria-hidden="true">⬨</div>
+            <h3>Dental Implants</h3>
+            <p>Permanent, natural-looking tooth replacement with titanium precision implants.</p>
+            <a href="services.html" class="card-link">Learn more →</a>
+          </article>
+        </div>
+        <div class="center-cta reveal">
+          <a href="services.html" class="btn-primary">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── WHY CHOOSE US ───────── -->
+    <section class="why-us section-gap" aria-labelledby="why-heading">
+      <div class="why-image-col">
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffbb0b78d8c?w=900&auto=format&fit=crop" 
+             alt="Friendly dentist consulting with a smiling patient" 
+             class="why-img" loading="lazy" />
+        <div class="why-accent-card">
+          <span class="accent-num">★ 4.9</span>
+          <span>Patient Rating</span>
+        </div>
+      </div>
+      <div class="why-content reveal">
+        <p class="label">Why Choose Us</p>
+        <h2 id="why-heading">A Clinic Built<br /><em>Around You</em></h2>
+        <p>At LuminaDent, every detail is designed for your comfort—from our calming environment to our cutting-edge technology and compassionate team.</p>
+        <ul class="why-list" role="list">
+          <li><span class="check" aria-hidden="true">✓</span>State-of-the-art digital X-rays &amp; 3D scanning</li>
+          <li><span class="check" aria-hidden="true">✓</span>Gentle, pain-free treatment approach</li>
+          <li><span class="check" aria-hidden="true">✓</span>Flexible evening &amp; weekend appointments</li>
+          <li><span class="check" aria-hidden="true">✓</span>Multiple insurance plans accepted</li>
+        </ul>
+        <a href="about.html" class="btn-primary">Meet Our Team</a>
+      </div>
+    </section>
+
+    <!-- ───────── TESTIMONIALS ───────── -->
+    <section class="testimonials section-gap" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="label">Patient Stories</p>
+          <h2 id="testimonials-heading">What Our Patients Say</h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card reveal">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>"The team at LuminaDent transformed my smile completely. I hadn't smiled in photos for years—now I can't stop."</p>
+            <footer><cite>— Sarah M., <span>Cosmetic Patient</span></cite></footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal reveal-delay-1">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>"Finally a dentist who listened. The implant procedure was so smooth and painless. Absolutely life-changing."</p>
+            <footer><cite>— James K., <span>Implant Patient</span></cite></footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal reveal-delay-2">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>"My children actually look forward to their appointments here. The staff is warm, professional, and incredibly gentle."</p>
+            <footer><cite>— Maria L., <span>Family Patient</span></cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────── CTA BAND ───────── -->
+    <section class="cta-band" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-band-inner reveal">
+          <h2 id="cta-heading">Ready for a Healthier, Brighter Smile?</h2>
+          <p>Book your consultation today and take the first step toward the smile you deserve.</p>
+          <a href="contact.html" class="btn-primary btn-large">Schedule an Appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────── FOOTER ───────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Lumina<em>Dent</em></span>
+        </a>
+        <p>Modern dental care designed around your comfort, confidence, and long-term health.</p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="Twitter">✕</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul role="list">
+          <li><a href="services.html">General Dentistry</a></li>
+          <li><a href="services.html">Cosmetic Dentistry</a></li>
+          <li><a href="services.html">Orthodontics</a></li>
+          <li><a href="services.html">Dental Implants</a></li>
+          <li><a href="services.html">Teeth Whitening</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <address>
+          <p>128 Ivory Lane, Suite 4<br />New York, NY 10001</p>
+          <p><a href="tel:+12125550199">(212) 555-0199</a></p>
+          <p><a href="mailto:hello@luminadent.com">hello@luminadent.com</a></p>
+        </address>
+        <p class="hours"><strong>Mon–Fri:</strong> 8am – 7pm<br /><strong>Sat:</strong> 9am – 4pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 LuminaDent. All rights reserved.</p>
+      <p>Privacy Policy · Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
