@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore LuminaDent's comprehensive dental services: general dentistry, cosmetic dentistry, orthodontics, dental implants, and teeth whitening." />
+  <title>Services | LuminaDent</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body class="page-services" id="top">
+
+  <header class="site-header" role="banner">
+    <a href="index.html" class="logo" aria-label="LuminaDent Home">
+      <span class="logo-icon">✦</span>
+      <span class="logo-text">Lumina<em>Dent</em></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <ul role="list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link active">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="btn-book" aria-label="Book an appointment">Book Appointment</a>
+    <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn-book">Book Appointment</a>
+  </div>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="services-hero-heading">
+      <div class="page-hero-bg">
+        <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1800&auto=format&fit=crop" 
+             alt="Modern dental treatment room" loading="eager" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="page-hero-content">
+        <p class="label reveal">What We Do</p>
+        <h1 id="services-hero-heading" class="reveal reveal-delay-1">Our <em>Services</em></h1>
+        <p class="reveal reveal-delay-2">Advanced treatments delivered with precision, care, and your comfort as our priority.</p>
+      </div>
+    </section>
+
+    <!-- GENERAL DENTISTRY -->
+    <section class="service-section section-gap" id="general" aria-labelledby="general-heading">
+      <div class="container two-col">
+        <div class="image-col reveal">
+          <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&auto=format&fit=crop" 
+               alt="Dentist performing a routine check-up" loading="lazy" />
+        </div>
+        <div class="text-col reveal reveal-delay-1">
+          <div class="service-tag">⬡ General Dentistry</div>
+          <h2 id="general-heading">Preventive Care<br /><em>for Life</em></h2>
+          <p>Your oral health is the foundation of your overall wellbeing. Our general dentistry services are designed to keep your teeth and gums healthy year-round through expert preventive care and early intervention.</p>
+          <ul class="service-list" role="list">
+            <li>Comprehensive oral examinations</li>
+            <li>Professional cleaning &amp; polishing</li>
+            <li>Digital X-rays &amp; 3D imaging</li>
+            <li>Cavity detection &amp; tooth-colored fillings</li>
+            <li>Gum disease assessment &amp; treatment</li>
+            <li>Night guards &amp; sports mouth guards</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Book a Check-up</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COSMETIC DENTISTRY -->
+    <section class="service-section service-section--alt section-gap" id="cosmetic" aria-labelledby="cosmetic-heading">
+      <div class="container two-col two-col--reversed">
+        <div class="text-col reveal">
+          <div class="service-tag">◈ Cosmetic Dentistry</div>
+          <h2 id="cosmetic-heading">Your Most<br /><em>Beautiful Smile</em></h2>
+          <p>Our cosmetic dental services combine artistry and precision to create smile transformations that look completely natural—and feel completely you.</p>
+          <ul class="service-list" role="list">
+            <li>Porcelain veneers &amp; laminates</li>
+            <li>Composite bonding</li>
+            <li>Full smile makeovers</li>
+            <li>Tooth contouring &amp; reshaping</li>
+            <li>Gum recontouring</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Plan Your Makeover</a>
+        </div>
+        <div class="image-col reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop" 
+               alt="Patient smiling after cosmetic dental treatment" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ORTHODONTICS -->
+    <section class="service-section section-gap" id="orthodontics" aria-labelledby="orthodontics-heading">
+      <div class="container two-col">
+        <div class="image-col reveal">
+          <img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=800&auto=format&fit=crop" 
+               alt="Clear dental aligners for orthodontic treatment" loading="lazy" />
+        </div>
+        <div class="text-col reveal reveal-delay-1">
+          <div class="service-tag">◭ Orthodontics</div>
+          <h2 id="orthodontics-heading">Aligned Smiles,<br /><em>Confident Lives</em></h2>
+          <p>Straight teeth aren't just about aesthetics—they improve bite function, reduce jaw strain, and make oral hygiene easier. Our orthodontic treatments are designed for teens and adults alike.</p>
+          <ul class="service-list" role="list">
+            <li>Invisalign clear aligners</li>
+            <li>Traditional metal braces</li>
+            <li>Ceramic (tooth-colored) braces</li>
+            <li>Retainers &amp; post-treatment care</li>
+            <li>Early intervention for children</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Start Your Alignment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEETH WHITENING -->
+    <section class="service-section service-section--alt section-gap" id="whitening" aria-labelledby="whitening-heading">
+      <div class="container two-col two-col--reversed">
+        <div class="text-col reveal">
+          <div class="service-tag">✦ Teeth Whitening</div>
+          <h2 id="whitening-heading">Brilliance<br /><em>Restored</em></h2>
+          <p>Years of coffee, wine, and daily wear can dull your smile. Our professional whitening systems deliver dramatically brighter results—safely and comfortably—in a single visit or at home.</p>
+          <ul class="service-list" role="list">
+            <li>In-office Zoom! whitening (up to 8 shades)</li>
+            <li>Custom take-home whitening trays</li>
+            <li>Sensitivity-free whitening protocols</li>
+            <li>Maintenance &amp; touch-up plans</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Brighten Your Smile</a>
+        </div>
+        <div class="image-col reveal reveal-delay-1">
+          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&auto=format&fit=crop" 
+               alt="Patient showing bright white teeth after whitening treatment" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- DENTAL IMPLANTS -->
+    <section class="service-section section-gap" id="implants" aria-labelledby="implants-heading">
+      <div class="container two-col">
+        <div class="image-col reveal">
+          <img src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?w=800&auto=format&fit=crop" 
+               alt="Dental implant model showing titanium post and crown" loading="lazy" />
+        </div>
+        <div class="text-col reveal reveal-delay-1">
+          <div class="service-tag">⬨ Dental Implants</div>
+          <h2 id="implants-heading">Permanent<br /><em>Natural Results</em></h2>
+          <p>Dental implants are the gold standard for replacing missing teeth. Using titanium technology that fuses with your jawbone, implants look, feel, and function exactly like natural teeth.</p>
+          <ul class="service-list" role="list">
+            <li>Single-tooth implants</li>
+            <li>Full-arch restoration (All-on-4)</li>
+            <li>Implant-supported bridges</li>
+            <li>Bone grafting &amp; sinus lifts</li>
+            <li>3D-guided implant planning</li>
+          </ul>
+          <a href="contact.html" class="btn-primary">Consult an Implant Specialist</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="cta-services-heading">
+      <div class="container">
+        <div class="cta-band-inner reveal">
+          <h2 id="cta-services-heading">Not Sure Which Service You Need?</h2>
+          <p>Book a free consultation and let our specialists create a personalized treatment plan for you.</p>
+          <a href="contact.html" class="btn-primary btn-large">Book Free Consultation</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Lumina<em>Dent</em></span>
+        </a>
+        <p>Modern dental care designed around your comfort, confidence, and long-term health.</p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="Twitter">✕</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul role="list">
+          <li><a href="services.html">General Dentistry</a></li>
+          <li><a href="services.html">Cosmetic Dentistry</a></li>
+          <li><a href="services.html">Orthodontics</a></li>
+          <li><a href="services.html">Dental Implants</a></li>
+          <li><a href="services.html">Teeth Whitening</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <address>
+          <p>128 Ivory Lane, Suite 4<br />New York, NY 10001</p>
+          <p><a href="tel:+12125550199">(212) 555-0199</a></p>
+          <p><a href="mailto:hello@luminadent.com">hello@luminadent.com</a></p>
+        </address>
+        <p class="hours"><strong>Mon–Fri:</strong> 8am – 7pm<br /><strong>Sat:</strong> 9am – 4pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 LuminaDent. All rights reserved.</p>
+      <p>Privacy Policy · Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
